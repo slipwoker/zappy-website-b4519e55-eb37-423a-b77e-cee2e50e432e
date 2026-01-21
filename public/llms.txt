@@ -1,57 +1,47 @@
-# safety-mobility — Generative Engine Optimization Map
-
-> A ייעוץ מקצועי ופתרונות ארגוניים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://safety-mobility-b4519e55.zappy5.app
+https://example.com
 פתרונות מקצועיים לקצין בטיחות בתעבורה, קורסים בסיסיים ומתקדמים, וייעוץ מקצועי לארגונים. התחילו עכשיו!
 
 ### שירותים
-https://safety-mobility-b4519e55.zappy5.app/services
+https://example.com/services
 גלו את מגוון הקורסים והשירותים שלנו: קצין בטיחות בתעבורה, רכב חשמלי, ייעוץ ארגוני ועוד. הדרכה מקצועית ומותאמת אישית.
 
 ### אודות
-https://safety-mobility-b4519e55.zappy5.app/about
+https://example.com/about
 למדו על safety-mobility - מובילים בייעוץ מקצועי ופתרונות בטיחות. מחויבות למצוינות, ניסיון עשיר, והכשרה מקצועית ברמה הגבוהה ביותר.
 
 ### צור קשר
-https://safety-mobility-b4519e55.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם safety-mobility לייעוץ מקצועי בבטיחות בתעבורה ובעבודה. נשמח לענות על כל שאלה ולספק פתרונות מותאמים אישית.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://safety-mobility-b4519e55.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://safety-mobility-b4519e55.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://safety-mobility-b4519e55.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About safety-mobility
-safety-mobility is a business in the ייעוץ מקצועי ופתרונות ארגוניים industry.
-
-## Target Audience
-מתחילים ובעלי מקצוע מנוסים בתחום הרכב והבטיחות
-
-## Industry
-ייעוץ מקצועי ופתרונות ארגוניים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://safety-mobility-b4519e55.zappy5.app/sitemap.xml
-- **Robots.txt**: https://safety-mobility-b4519e55.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
