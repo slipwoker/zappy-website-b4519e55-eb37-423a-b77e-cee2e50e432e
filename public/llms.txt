@@ -1,24 +1,26 @@
-# safety-mobility — Generative Engine Optimization Map
-
-> A ייעוץ מקצועי ופתרונות ארגוניים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
-### דף הבית
+### מובילים בפתרונות בטיחות בתעבורה ובעבודה — safety-mobility
 https://safety-mobility.com
 פתרונות מקצועיים לקצין בטיחות בתעבורה, קורסים בסיסיים ומתקדמים, וייעוץ מקצועי לארגונים. התחילו עכשיו!
 
-### שירותים
+### קורסים מקצועיים וייעוץ בטיחות — safety-mobility
 https://safety-mobility.com/services
 גלו את מגוון הקורסים והשירותים שלנו: קצין בטיחות בתעבורה, רכב חשמלי, ייעוץ ארגוני ועוד. הדרכה מקצועית ומותאמת אישית.
 
-### אודות
+### תחזוקת סוללה ברכב היברידי - מדריך מקצועי | safety-mobility
+https://safety-mobility.com/hybrid-battery-maintenance
+מדריך מקיף לתחזוקת סוללה ברכב היברידי עבור קציני בטיחות ובעלי רכבים. טיפים להארכת חיי הסוללה, בטיחות במתח גבוה ופתרונות ארגוניים לניהול ציי רכב.
+
+### הסיפור שלנו ומחויבות למצוינות — safety-mobility
 https://safety-mobility.com/about
 למדו על safety-mobility - מובילים בייעוץ מקצועי ופתרונות בטיחות. מחויבות למצוינות, ניסיון עשיר, והכשרה מקצועית ברמה הגבוהה ביותר.
 
-### צור קשר
+### צרו קשר לייעוץ מקצועי — safety-mobility
 https://safety-mobility.com/contact
 צרו קשר עם safety-mobility לייעוץ מקצועי בבטיחות בתעבורה ובעבודה. נשמח לענות על כל שאלה ולספק פתרונות מותאמים אישית.
 
@@ -40,15 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About safety-mobility
-safety-mobility is a business in the ייעוץ מקצועי ופתרונות ארגוניים industry.
-
-## Target Audience
-מתחילים ובעלי מקצוע מנוסים בתחום הרכב והבטיחות
-
-## Industry
-ייעוץ מקצועי ופתרונות ארגוניים
-
+## About Business
 ---
 
 # Additional Resources
