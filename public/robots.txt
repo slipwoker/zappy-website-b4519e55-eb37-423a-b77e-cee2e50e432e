@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://safety-mobility.zappy5.app/sitemap.xml
+Sitemap: https://safety-mobility.com/sitemap.xml
