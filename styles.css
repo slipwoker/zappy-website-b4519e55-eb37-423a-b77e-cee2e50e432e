@@ -1466,6 +1466,175 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* Added Component Styles */
+.contact-cta-section-v1 {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, var(--surface-color) 0%, var(--background-color) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-cta-section-v1::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: var(--accent-color);
+  opacity: 0.03;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.contact-cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.contact-cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contact-cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-cta-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--nav-color);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.contact-cta-description {
+  font-size: 18px;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-cta-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-primary-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 40px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 255, 0.2);
+}
+
+.btn-primary-cta:hover {
+  background-color: var(--nav-hover-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 255, 0.3);
+}
+
+.btn-secondary-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.btn-secondary-cta:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.phone-icon {
+  transition: transform 0.3s ease;
+}
+
+.btn-secondary-cta:hover .phone-icon {
+  transform: rotate(15deg);
+}
+
+.contact-cta-image {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.contact-cta-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.contact-cta-image:hover .contact-cta-img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 968px) {
+  .contact-cta-section-v1 {
+    padding: 60px 20px;
+  }
+  
+  .contact-cta-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-cta-title {
+    font-size: 32px;
+  }
+  
+  .contact-cta-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-cta-buttons {
+    flex-direction: column;
+  }
+  
+  .btn-primary-cta,
+  .btn-secondary-cta {
+    width: 100%;
+    padding: 14px 24px;
+    font-size: 16px;
+  }
+  
+  .contact-cta-title {
+    font-size: 28px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
