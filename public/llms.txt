@@ -1,6 +1,4 @@
-# safety-mobility — Generative Engine Optimization Map
-
-> A ייעוץ מקצועי ופתרונות ארגוניים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -34,6 +32,10 @@ https://safety-mobility.com/safety-officer-services
 https://safety-mobility.com/safety-training
 מגוון הדרכות בטיחות מקצועיות, קורסים והכשרות לקציני בטיחות בתעבורה, נהגים ומנהלי ציים. התמחות ברכב חשמלי והיברידי.
 
+### ניהול ציי רכב
+https://safety-mobility.com/fleet-management
+שירותי ניהול ציי רכב מתקדמים לארגונים. ייעול תהליכים, חיסכון בעלויות, ובקרה על בטיחות ותחזוקה. פתרונות טכנולוגיים ומקצועיים.
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -52,15 +54,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About safety-mobility
-safety-mobility is a business in the ייעוץ מקצועי ופתרונות ארגוניים industry.
-
-## Target Audience
-מתחילים ובעלי מקצוע מנוסים בתחום הרכב והבטיחות
-
-## Industry
-ייעוץ מקצועי ופתרונות ארגוניים
-
+## About Business
 ---
 
 # Additional Resources

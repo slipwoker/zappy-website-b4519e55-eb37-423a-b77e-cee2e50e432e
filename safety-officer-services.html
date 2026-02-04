@@ -877,7 +877,7 @@ img[data-no-hero-position] { position: static !important; }
         </svg>
       </button>
       
-      <ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a><ul class="sub-menu"><li><a href="/hybrid-battery-maintenance" class="nav-link">תחזוקת רכב היברידי</a></li><li><a href="/safety-officer-services" class="nav-link">שירותי קצין בטיחות</a></li><li><a href="/safety-training" class="nav-link">הדרכות והכשרות</a></li></ul></li><li><a href="/about">אודות</a></li><li class="nav-cta-item-mobile"><a href="/contact">צור קשר</a></li></ul>
+      <ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a><ul class="sub-menu"><li><a href="/hybrid-battery-maintenance" class="nav-link">תחזוקת רכב היברידי</a></li><li><a href="/safety-officer-services" class="nav-link">שירותי קצין בטיחות</a></li><li><a href="/safety-training" class="nav-link">הדרכות והכשרות</a></li><li><a href="/fleet-management" class="nav-link">ניהול ציי רכב</a></li></ul></li><li><a href="/about">אודות</a></li><li class="nav-cta-item-mobile"><a href="/contact">צור קשר</a></li></ul>
       
       <div class="nav-cta-container">
         <li class="nav-cta-item">
@@ -905,57 +905,54 @@ img[data-no-hero-position] { position: static !important; }
     </div>
   </section>
 
+<section id="layout-1770210408908" class="layout-section hero-section" data-zappy-component="true" style="width: 100vw; margin-left: calc(-50vw + 50%); min-height: 500px; position: relative; display: flex; align-items: center; justify-content: center; direction: rtl; overflow: hidden; box-sizing: border-box;" data-component-id="hero-fullwidth-bg">
+  <!-- CSS override for hero background images and content elements - ensures correct styling -->
+  <style>
+    .hero-bg-container img.hero-background-image,
+    .hero-bg-container img[data-hero-background="true"] {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      display: block !important;
+      max-width: none !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+    }
+    /* Ensure interactive elements in hero section are clickable */
+    #layout-1770210408908 button,
+    #layout-1770210408908 a,
+    #layout-1770210408908 .btn,
+    #layout-1770210408908 [class*="btn"],
+    #layout-1770210408908 [data-element-type="button"],
+    #layout-1770210408908 h1,
+    #layout-1770210408908 h2,
+    #layout-1770210408908 h3,
+    #layout-1770210408908 h4,
+    #layout-1770210408908 p {
+      pointer-events: auto !important;
+      position: relative;
+    }
+  </style>
+  <!-- Background Image Container - full bleed -->
+  <div class="hero-bg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+    <img data-placeholder="hero-bg-1770210408908" data-context="Hero background image for כותרת שלך כאן" data-zappy-editable-image="true" data-element-type="image" data-hero-background="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='800'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%230000FF;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23F5F5F5;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='24' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EHero Background Image%3C/text%3E%3C/svg%3E" alt="Hero background" style="width: 100%; height: 100%; object-fit: cover; object-position: center; cursor: pointer; display: block;" class="layout-placeholder-image zappy-editable-image hero-background-image">
+  </div>
+  
+  <!-- Dark Overlay for text readability (pointer-events: none allows clicking through to image) -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; pointer-events: none;"></div>
+  
+  <!-- Content (pointer-events: none on container, auto on interactive elements via CSS above) -->
+  <div class="container" style="position: relative; z-index: 3; max-width: 1200px; width: 100%; margin: 0 auto; padding: 80px 1.5rem; text-align: center; pointer-events: none; box-sizing: border-box;">
+    <h1 style="font-size: 48px; font-weight: 700; color: #FFFFFF; margin-bottom: 20px; font-family: system-ui, -apple-system, sans-serif; text-shadow: 0 2px 4px rgba(0,0,0,0.3); pointer-events: auto;">כותרת שלך כאן</h1>
+    <h3 style="font-size: 24px; font-weight: 400; color: #FFFFFF; opacity: 0.9; max-width: 700px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif; text-shadow: 0 1px 2px rgba(0,0,0,0.3); pointer-events: auto;">כותרת משנה שלך כאן</h3>
+  </div>
+</section>
+
+
+
   <!-- Main Services Grid -->
-  <section class="section services-section" id="services-grid" style="background-color: #d0d0d0 !important; padding: 80px 0; direction: rtl;" data-zappy-section="true">
-    <div class="container">
-      <div style="text-align: center; margin-bottom: 60px;">
-        <h2 style="color: #1a202c !important; font-size: 2rem; margin-bottom: 15px; font-weight: 700;">פתרונות מקצועיים לניהול הבטיחות</h2>
-        <p style="color: #4a5568 !important; max-width: 700px; margin: 0 auto;">אנו מספקים מעטפת שירותים מלאה המותאמת לצרכי הארגון שלך, תוך הקפדה על דרישות החוק והתקנות.</p>
-      </div>
-      
-      <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
-        <!-- Service Card 1 -->
-        <article class="card" style="background-color: #e0e0d0 !important; padding: 0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
-          <img data-placeholder="vehicle-inspection" data-context="Mechanic checking car tires and brakes close up" data-zappy-editable-image="true" src="/assets/page-vehicle-inspection-1769000001440.webp" alt="בדיקת תקינות רכב" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 25px; flex-grow: 1; display: flex; flex-direction: column;">
-            <h3 style="color: #1a202c !important; font-size: 1.25rem; margin-bottom: 10px; font-weight: 600;">פיקוח על תקינות הרכב</h3>
-            <p style="color: #4a5568 !important; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">בדיקות תקופתיות ומעקב שוטף אחר טיפולים ותחזוקה למניעת תקלות והשבתות מיותרות.</p>
-            <span style="margin-top: auto; color: #0000FF !important; font-weight: 600; font-size: 0.9rem;">פיקוח טכני מקיף</span>
-          </div>
-        </article>
-
-        <!-- Service Card 2 -->
-        <article class="card" style="background-color: #e0e0d0 !important; padding: 0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
-          <img data-placeholder="driver-training" data-context="Instructor teaching a driver in a classroom setting with safety charts" data-zappy-editable-image="true" src="/assets/page-driver-training-1769000005505.webp" alt="הדרכות נהיגה" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 25px; flex-grow: 1; display: flex; flex-direction: column;">
-            <h3 style="color: #1a202c !important; font-size: 1.25rem; margin-bottom: 10px; font-weight: 600;">הדרכות בטיחות ונהיגה</h3>
-            <p style="color: #4a5568 !important; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">קורסים בסיסיים ומתקדמים לנהגים, רענון נהלים ושיפור מיומנויות הנהיגה בזמן אמת.</p>
-            <span style="margin-top: auto; color: #0000FF !important; font-weight: 600; font-size: 0.9rem;">הכשרת נהגים מקצועית</span>
-          </div>
-        </article>
-
-        <!-- Service Card 3 -->
-        <article class="card" style="background-color: #e0e0d0 !important; padding: 0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
-          <img data-placeholder="regulation-compliance" data-context="Documents and clipboard with checklist on a desk" data-zappy-editable-image="true" src="/assets/page-regulation-compliance-1769000024655.webp" alt="ניהול רגולציה" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 25px; flex-grow: 1; display: flex; flex-direction: column;">
-            <h3 style="color: #1a202c !important; font-size: 1.25rem; margin-bottom: 10px; font-weight: 600;">ניהול רגולציה ורישוי</h3>
-            <p style="color: #4a5568 !important; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">ניהול יומני רכב, חידוש רישיונות, ועבודה מול משרד התחבורה והרשויות להבטחת עמידה בחוק.</p>
-            <span style="margin-top: auto; color: #0000FF !important; font-weight: 600; font-size: 0.9rem;">שקט נפשי בירוקרטי</span>
-          </div>
-        </article>
-
-        <!-- Service Card 4 -->
-        <article class="card" style="background-color: #e0e0d0 !important; padding: 0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
-          <img data-placeholder="accident-investigation" data-context="Safety officer analyzing data on a tablet near a car" data-zappy-editable-image="true" src="/assets/page-accident-investigation-1769000026723.webp" alt="תחקור אירועים" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 25px; flex-grow: 1; display: flex; flex-direction: column;">
-            <h3 style="color: #1a202c !important; font-size: 1.25rem; margin-bottom: 10px; font-weight: 600;">תחקור וניהול אירועים</h3>
-            <p style="color: #4a5568 !important; margin-bottom: 20px; font-size: 0.95rem; line-height: 1.6;">חקירת תאונות ואירועי בטיחות, הפקת לקחים ויישום נהלים למניעת הישנות מקרים בעתיד.</p>
-            <span style="margin-top: auto; color: #0000FF !important; font-weight: 600; font-size: 0.9rem;">למידה ושיפור מתמיד</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- Key Benefits / Visual List -->
   <section class="section benefits-section" id="benefits" style="background-color: #e0e0d0 !important; padding: 80px 0; direction: rtl;" data-zappy-section="true">
