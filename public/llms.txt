@@ -54,6 +54,28 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
+## How to Contact Us
+
+- Email: motidvir8@gmail.com
+- Phone: 054-2896888
+- Phone (tel): tel:0542896888
+- Address: ,
+
+### Contact form
+- URL: https://safety-mobility.com/contact
+- Endpoint: https://safety-mobility.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `service` (select)
+  - `message` (textarea)
+  - `consent` (checkbox)
+
+---
+
 # Business Context (for LLM understanding)
 
 ## About safety-mobility
@@ -67,7 +89,8 @@ safety-mobility is a business in the ייעוץ מקצועי ופתרונות א
 
 ---
 
-# Additional Resources
+# Machine-readable feeds
 
-- **Sitemap**: https://safety-mobility.com/sitemap.xml
-- **Robots.txt**: https://safety-mobility.com/robots.txt
+- Sitemap (XML): https://safety-mobility.com/sitemap.xml
+- Robots: https://safety-mobility.com/robots.txt
+- Flattened page text (for LLMs): https://safety-mobility.com/llms-full.txt
