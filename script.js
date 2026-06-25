@@ -253,6 +253,42 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+/* Added Component Script */
+/* Optional: Intersection Observer for scroll animations */
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.service-card');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    cards.forEach(function(card) {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(30px)';
+      card.style.transition = 'opacity 0.6s ease, transform 0.6s ease, box-shadow 0.3s ease, border-color 0.3s ease';
+      observer.observe(card);
+    });
+  } else {
+    /* Fallback for browsers without IntersectionObserver support */
+    cards.forEach(function(card) {
+      card.style.opacity = '1';
+    });
+  }
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
