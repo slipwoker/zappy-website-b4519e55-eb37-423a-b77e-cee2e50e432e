@@ -59,7 +59,7 @@ Information about WCAG compliance and accessibility features.
 - Email: motidvir8@gmail.com
 - Phone: 054-2896888
 - Phone (tel): tel:0542896888
-- Address: ירושלים, ישראל
+- Address: ירושלים, ירושלים, ישראל
 
 ### Contact form
 - URL: https://safety-mobility.com/contact
