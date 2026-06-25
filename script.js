@@ -228,6 +228,31 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+/* Added Component Script */
+/* Optional: Lightbox functionality can be added here if needed */
+document.addEventListener('DOMContentLoaded', () => {
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  
+  galleryItems.forEach((item, index) => {
+    item.addEventListener('click', () => {
+      // Placeholder for lightbox or full-screen view
+      console.log(`Image ${index + 1} clicked - lightbox can be implemented here`);
+    });
+    
+    // Add keyboard accessibility
+    item.setAttribute('tabindex', '0');
+    item.setAttribute('role', 'button');
+    item.setAttribute('aria-label', `פתח תמונה ${index + 1}`);
+    
+    item.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        item.click();
+      }
+    });
+  });
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
