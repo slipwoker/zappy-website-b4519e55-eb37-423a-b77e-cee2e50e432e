@@ -1,4 +1,4 @@
-# safety-mobility — Generative Engine Optimization Map
+# safety-mobility- אוטוטק ישראל — Generative Engine Optimization Map
 
 > A ייעוץ מקצועי ופתרונות ארגוניים business.
 
@@ -59,7 +59,7 @@ Information about WCAG compliance and accessibility features.
 - Email: motidvir8@gmail.com
 - Phone: 054-2896888
 - Phone (tel): tel:0542896888
-- Address: ,
+- Address: ירושלים, ישראל
 
 ### Contact form
 - URL: https://safety-mobility.com/contact
@@ -78,8 +78,8 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About safety-mobility
-safety-mobility is a business in the ייעוץ מקצועי ופתרונות ארגוניים industry.
+## About safety-mobility- אוטוטק ישראל
+safety-mobility- אוטוטק ישראל is a business in the ייעוץ מקצועי ופתרונות ארגוניים industry.
 
 ## Target Audience
 מתחילים ובעלי מקצוע מנוסים בתחום הרכב והבטיחות
