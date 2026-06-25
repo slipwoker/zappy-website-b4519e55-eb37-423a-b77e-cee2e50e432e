@@ -289,6 +289,75 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+/* Added Component Script */
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.contact-form');
+  
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Basic validation
+      const fullName = form.querySelector('#full-name');
+      const phone = form.querySelector('#phone');
+      let isValid = true;
+      
+      // Reset previous error states
+      form.querySelectorAll('.form-input, .form-select, .form-textarea').forEach(el => {
+        el.style.borderColor = '#e0e0e0';
+      });
+      
+      if (!fullName.value.trim()) {
+        fullName.style.borderColor = '#e74c3c';
+        fullName.focus();
+        isValid = false;
+      }
+      
+      if (!phone.value.trim()) {
+        phone.style.borderColor = '#e74c3c';
+        if (isValid) phone.focus();
+        isValid = false;
+      }
+      
+      if (isValid) {
+        // Simulate submission
+        const submitBtn = form.querySelector('.form-submit-btn');
+        const originalHTML = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<span>שולח...</span>';
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = '0.7';
+        submitBtn.style.cursor = 'not-allowed';
+        
+        setTimeout(function() {
+          submitBtn.innerHTML = '<span>✓ נשלח בהצלחה!</span>';
+          submitBtn.style.background = '#16a34a';
+          submitBtn.style.opacity = '1';
+          submitBtn.style.cursor = 'default';
+          
+          // Reset after delay
+          setTimeout(function() {
+            submitBtn.innerHTML = originalHTML;
+            submitBtn.style.background = '';
+            submitBtn.style.opacity = '';
+            submitBtn.style.cursor = '';
+            submitBtn.disabled = false;
+            form.reset();
+          }, 2500);
+        }, 1200);
+      }
+    });
+    
+    // Real-time validation clearing
+    form.querySelectorAll('.form-input').forEach(input => {
+      input.addEventListener('input', function() {
+        if (this.style.borderColor === 'rgb(231, 76, 60)') {
+          this.style.borderColor = '#e0e0e0';
+        }
+      });
+    });
+  }
+});
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){

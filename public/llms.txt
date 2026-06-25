@@ -62,17 +62,17 @@ Information about WCAG compliance and accessibility features.
 - Address: ירושלים, ירושלים, ישראל
 
 ### Contact form
-- URL: https://safety-mobility.com/contact
+- URL: https://safety-mobility.com
 - Endpoint: https://safety-mobility.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
+  - `full-name` (text, required)
   - `phone` (tel, required)
+  - `email` (email)
+  - `company` (text)
   - `service` (select)
   - `message` (textarea)
-  - `consent` (checkbox, required)
 
 ---
 
